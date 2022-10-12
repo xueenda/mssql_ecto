@@ -31,7 +31,7 @@ defmodule MssqlEcto.Mixfile do
 
   defp deps do
     [
-      {:mssqlex, "~> 1.1.0"},
+      {:mssqlex_v3, git: "https://github.com/xueenda/mssqlex_v3.git"},
       {:ecto, "~> 3.7.2"},
       {:ex_doc, "~> 0.15", only: :dev, runtime: false},
       {:excoveralls, "~> 0.6", only: :test},
